@@ -1,0 +1,22 @@
+h3
+{
+  font-size: 25px !important;
+}
+canvas {
+    animation-name: New1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  border-color: red ;
+}
+.btn-success:hover
+{
+  background-color: darkgreen;
+}
+@keyframes New1
+{
+  0% {box-shadow:red ; border-color: red;}
+  25% {box-shadow: yellow; border-color: yellow;}
+  50% {box-shadow: orange; border-color: orange;}
+  75% {box-shadow: orangered; border-color: orangered;}
+  100% {box-shadow: red; border-color: red;}
+}
